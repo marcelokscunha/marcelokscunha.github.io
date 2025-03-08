@@ -4,7 +4,7 @@ title: AlphaFold 2: A Breakthrough in Protein Structure Prediction and the Role 
 subtitle: Cloud-Powered AI in Protein Structure Prediction
 gh-repo: daattali/beautiful-jekyll
 gh-badge: [star, fork, follow]
-tags: [test]
+tags: [ai, drug-discovery, cloud-computing]
 comments: true
 mathjax: true
 author: Marcelo Cunha

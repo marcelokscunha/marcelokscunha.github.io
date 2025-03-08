@@ -18,7 +18,7 @@ Predicting protein structure has long been one of biology’s grand challenges. 
 
 The introduction of **AlphaFold 2** by DeepMind in 2020 marked a transformative moment in both artificial intelligence and structural biology. The model’s unprecedented accuracy in predicting protein structures culminated in the awarding of the 2024 **Nobel Prize in Chemistry** to the researchers behind it. This blog post examines the innovations behind AlphaFold 2, its impact on biological research, and its broader implications for artificial intelligence, life sciences, and cloud computing.
 
-![nobel]({{ '/image/1.png' | relative_url }})
+![nobel](/images/1.png)
 
 ## **Cloud Computing in Biomedicine**
 
@@ -39,15 +39,15 @@ Before AlphaFold 2, protein structure prediction relied on two main approaches:
 1. **Physics-Based Simulations:** Tools like **Rosetta** and **AMBER** attempted to model molecular interactions through thermodynamic simulations. However, the immense computational complexity made these methods impractical for larger proteins.
 2. **Evolutionary Analysis:** Methods like **PSICOV** and **I-TASSER** used evolutionary information from the Protein Data Bank (PDB) and genomic sequencing to predict structures. While beneficial, they fell short in accuracy for proteins lacking known structural homologs.
 
-The **Critical Assessment of Protein Structure Prediction (CASP)** competition tracked progress in this field. Before AlphaFold 2, even the best models often had deviations exceeding 3-4 Ångstroms from experimental structures, making reliable predictions difficult (image below). While deep learning started showing promise, challenges remained in handling the vast number of conformations a protein could adopt and modeling long-range amino acid interactions effectively.
+The **Critical Assessment of Protein Structure Prediction (CASP)** competition tracked progress in this field. Before AlphaFold 2, even the best models often had deviations exceeding 3-4 Ångstroms from experimental structures, making reliable predictions difficult (images below). While deep learning started showing promise, challenges remained in handling the vast number of conformations a protein could adopt and modeling long-range amino acid interactions effectively.
 
-![nobel]({{ '/image/2.png' | relative_url }})
+![casp-results](/images/2.png)
 
 ## **Breaking Down AlphaFold 2**
 
 AlphaFold 2's architecture consists of three main modules:
 
-![nobel]({{ '/image/3.png' | relative_url }})
+![af2-arch](/images/3.png)
 
 ### **1. Preprocessing Module**
 
@@ -74,7 +74,7 @@ Additionally, AlphaFold 2 incorporates:
 - **pLDDT Confidence Measure:** Estimates prediction reliability per amino acid.
 - **Self-Distillation Training:** Expands training data by predicting structures of uncharacterized proteins and incorporating high-confidence predictions into model retraining.
 
-![nobel]({{ '/image/4.png' | relative_url }})
+![uncertainty](/images/4.png)
 
 ## **The Role of Cloud Computing in AlphaFold 2**
 
@@ -123,9 +123,9 @@ The awarding of the **2024 Nobel Prize in Chemistry** to AlphaFold’s creators 
 
 
 1.	Jumper, J., Evans, R., Pritzel, A. et al. [Highly accurate protein structure prediction with AlphaFold. Nature 596, 583–589 (2021).](https://www.nature.com/articles/s41586-021-03819-2)
-2.	[2024 Nobel Prize lectures in chemistry | David Baker, Demis Hassabis and John Jumper](https://www.youtube.com/watch?v=HnT1VWzdFWc)
-3.	Guest lecture on the "Geometric Deep Learning" course taught in the African Master in Machine Intelligence in July 2022 by Russ Bates (DeepMind). [AIMMI Seminar: AlphaFold - Russ Bates Presentation.](https://www.youtube.com/watch?v=1FluhB_ZgNI)
-4.	Oxford Protein Informatics Group blog - [AlphaFold 2 is here: what’s behind the structure prediction miracle | Oxford Protein Informatics Group](https://www.blopig.com/blog/2021/07/alphafold-2-is-here-whats-behind-the-structure-prediction-miracle/) 
+2.	[2024 Nobel Prize lectures in chemistry](https://www.youtube.com/watch?v=HnT1VWzdFWc) - David Baker, Demis Hassabis and John Jumper
+3.	Guest lecture on the "Geometric Deep Learning" course taught in the African Master in Machine Intelligence in July 2022 by Russ Bates (DeepMind). AIMMI Seminar: AlphaFold - [Russ Bates Presentation.](https://www.youtube.com/watch?v=1FluhB_ZgNI)
+4.	Oxford Protein Informatics Group blog - [AlphaFold 2 is here: what’s behind the structure prediction miracle - Oxford Protein Informatics Group](https://www.blopig.com/blog/2021/07/alphafold-2-is-here-whats-behind-the-structure-prediction-miracle/) 
 5.	Alford RF, et al. [The Rosetta All-Atom Energy Function for Macromolecular Modeling and Design.](https://pmc.ncbi.nlm.nih.gov/articles/PMC5717763/) J Chem Theory Comput. 2017 Jun 13;13(6):3031-3048. doi: 10.1021/acs.jctc.7b00125. Epub 2017 May 12. Erratum in: J Chem Theory Comput. 2022 Jul 12;18(7):4594. doi: 10.1021/acs.jctc.2c00500. PMID: 28430426; PMCID: PMC5717763.
 6.	Weiner, P.K. and Kollman, P.A. (1981), [AMBER: Assisted model building with energy refinement. A general program for modeling molecules and their interactions](https://doi.org/10.1002/jcc.540020311). J. Comput. Chem., 2: 287-303. 
 7.	Assisted Model Building with Energy Refinement (AMBER) - https://en.wikipedia.org/wiki/AMBER 

@@ -1,7 +1,7 @@
 ---
 layout: post
-title: AlphaFold 2: A Breakthrough in Protein Structure Prediction and the Role of Cloud Computing
-subtitle: Cloud-Powered AI in Protein Structure Prediction
+title: "AlphaFold 2: A Breakthrough in Protein Structure Prediction and the Role of Cloud Computing"
+subtitle: "Cloud-Powered AI in Protein Structure Prediction"
 gh-repo: daattali/beautiful-jekyll
 gh-badge: [star, fork, follow]
 tags: [ai, drug-discovery, cloud-computing]
